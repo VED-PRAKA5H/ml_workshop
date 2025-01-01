@@ -24,7 +24,5 @@ pts_in_hull = np.load("../model/")
 net = cv2.dnn.readNetFromCaffe(protofile, weightsfile)
 
 pts_in_hull = pts_in_hull.trasnpose().reshape(2, 313, 1, 1)
-
-
-
+net.getLayer(net.getLayerId('class8_ab')).blobs = [pts_in_hull.astype(np.flo)]
 
