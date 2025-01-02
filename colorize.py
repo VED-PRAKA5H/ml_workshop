@@ -3,7 +3,7 @@ import cv2
 import os
 
 # Load the grayscale image from the specified path
-image_path = 'greyscaleimage.png'
+image_path = 'images/greyscaleimage.png'
 frame = cv2.imread(image_path)  # Read the image using OpenCV
 
 # Define paths to the model files
