@@ -9,6 +9,8 @@ This is a machine learning workshop repo.
 * The detected faces are highlighted with bounding boxes, and facial landmarks are marked with circles.
 
 ## Part 3: Coloring of Black & White Image
-* I'll be doing an overview of image processing and recognition.
-* And also be able to build one such working model for yourself from scratch.
+### The Zhang Algorithm
+**Credit**: The colorization algorithm was developed by Zhang, et al, and is detailed here: [click here](http://richzhang.github.io/colorization/)
+* An overview of image processing and recognition.
+* Build one such working model from scratch.
 * Learn the basics of Classification & Colorization Problems, Neural Networks, etc.
